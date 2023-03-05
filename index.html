@@ -20,6 +20,10 @@
         font-style: oblique;
         font-weight: bold;
       }
+
+      body {
+        background-color:darkslategrey;
+      }
     </style>
   </head>
   <body>
@@ -32,7 +36,9 @@
     <button type="button" accesskey="p" onclick="location.reload()">
       Click Me To Refresh Your Code
     </button>
-    <py-repl style="color: blue" id="the_answer"></py-repl>
-    <script></script>
   </body>
+  <div><py-repl id="python_script"></py-repl></div>
+
+  <script></script>
 </html>
+
